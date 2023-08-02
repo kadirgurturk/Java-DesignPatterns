@@ -1,13 +1,13 @@
-##Bridge Design Pattern
+## Bridge Design Pattern
 
-####Bridge tasarım deseni, nesne tabanlı yazılım geliştirme alanında kullanılan bir tasarım deseni (design pattern) türüdür. Bu desen, karmaşık bir sınıf yapısını iki ayrı hiyerarşi olarak tasarlamak ve bu iki hiyerarşi arasındaki bağı zayıflatmak için kullanılır. Bridge tasarım deseni, sınıfların uygulamadan bağımsız olarak bir arayüz üzerinden etkileşim kurmasını sağlar.
+#### Bridge tasarım deseni, nesne tabanlı yazılım geliştirme alanında kullanılan bir tasarım deseni (design pattern) türüdür. Bu desen, karmaşık bir sınıf yapısını iki ayrı hiyerarşi olarak tasarlamak ve bu iki hiyerarşi arasındaki bağı zayıflatmak için kullanılır. Bridge tasarım deseni, sınıfların uygulamadan bağımsız olarak bir arayüz üzerinden etkileşim kurmasını sağlar.
 
-####Bridge tasarım deseni, "köprü" anlamına gelen bir isimle ifade edilir, çünkü bu desen, birbiriyle ilgili ama farklı iki hiyerarşik yapının birleşmesi için bir köprü görevi görür. Bu iki hiyerarşi, soyutlama ve uygulama kısımları olarak adlandırılan iki ayrı bileşenden oluşur.
+#### Bridge tasarım deseni, "köprü" anlamına gelen bir isimle ifade edilir, çünkü bu desen, birbiriyle ilgili ama farklı iki hiyerarşik yapının birleşmesi için bir köprü görevi görür. Bu iki hiyerarşi, soyutlama ve uygulama kısımları olarak adlandırılan iki ayrı bileşenden oluşur.
 
 
-####Uygulama kısmı ise soyutlama kısmının alt sınıflarıdır. Bu kısım, soyutlama kısmının tanımladığı operasyonları gerçek uygulama detaylarına gönderir. Farklı uygulama kısımları, birbiriyle değiştirilebilir şekilde çalışabilir.
+#### Uygulama kısmı ise soyutlama kısmının alt sınıflarıdır. Bu kısım, soyutlama kısmının tanımladığı operasyonları gerçek uygulama detaylarına gönderir. Farklı uygulama kısımları, birbiriyle değiştirilebilir şekilde çalışabilir.
 
-##Kodlara Bakış.
+## Kodlara Bakış.
 
 #### Konunun kolay anlaşılabilmesi için hayatımızdaki günlük bir aktivite üzerinden örnek vermek istedim. Aslında olay kod öncesinde oldukça basit, istediğimiz bir cihaz'dan istediğimiz bir ses cihazı ile, sevdiğimiz diziyi izlemek.
 
