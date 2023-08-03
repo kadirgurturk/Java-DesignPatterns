@@ -1,5 +1,8 @@
 package com.kadirgurturk.Flyweight;
 
+import com.kadirgurturk.Flyweight.character.Character;
+import com.kadirgurturk.Flyweight.character.CharacterFactory;
+
 public class App {
     public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-package com.kadirgurturk.Flyweight;
+package com.kadirgurturk.Flyweight.character;
 
 import java.util.HashMap;
 import java.util.Map;
