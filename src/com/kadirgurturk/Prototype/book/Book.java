@@ -1,4 +1,4 @@
-package com.kadirgurturk.Prototype;
+package com.kadirgurturk.Prototype.book;
 
 public interface Book {
 
