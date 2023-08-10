@@ -30,7 +30,18 @@ Yazılım geliştirme sürecinde, belirli işlemlerin gerçekleştirilmesi ve y�
 Command tasarım deseni, işlemleri nesnelere dönüştürerek sistemlerin daha esnek, ölçeklenebilir ve bakımı daha kolay hale getirilmesini sağlar. Özellikle işlemlerin izlenmesi, geri alınması ve yönetilmesi gerektiği senaryolarda, ayrıca uzaktan kumanda sistemlerinde ve işlem sıralamalarında sıkça kullanılır.
 Bu örneği kopyalayıp yapıştırarak kullanabilirsiniz. Bu sayede Command tasarım deseni hakkında detaylı bir README.md dokümanı hazırlamış olursunuz.
 
+## Yazılan Kodlar Üzeri Anlatım
 
+## Sorun ve İhtiyaç
+
+Restoran otomasyonunda siparişlerin yönetimi ve işlemlerin geri alınması zor olabilir. Command tasarım deseni, bu işlemleri daha esnek ve yönetilebilir hale getirmeyi amaçlar.
+
+## Uygulama
+
+- **Komut Arabirimi (`Command`):** İşlemleri temsil eden komutların arayüzünü belirtir.
+- **Komutları Uygulayan Sınıflar:** Farklı işlemleri gerçekleştiren komutları temsil eder.
+- **Tetikleyici (Invoker) Sınıfı:** Komutları yönetir ve çalıştırır.
+- **Ana Program:** Komutların kullanımını gösterir.
 
 
 
